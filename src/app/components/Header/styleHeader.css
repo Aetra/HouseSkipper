@@ -1,26 +1,9 @@
-:root {
-  --colorHeader:#6e879a;
-  --colorNavHover: #fb9e00;
-  --colorNavBar: #569dd7;
-  --colorNavActive: #4CAF50;
-}
+
 header{
-  background-color: var(--colorHeader);
+  background-color:#6e879a;
+  margin:0 0 0 0 !important
 }
 
 .imgMaison{
   width:70%;
-}
-/* Mobile Devices */
-@media (min-width: 320px) and (max-width:767px) {
-  .logoCrux{
-    width:70%;
-  }
-}
-
-/* Medium Devices */
-@media (min-width:768px) and (max-width:1023px) {
-  .logoCrux{
-    width:50%;
-  }
 }

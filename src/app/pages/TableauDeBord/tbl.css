@@ -1,0 +1,27 @@
+.PtableauBord{
+  min-height: 100vh;
+}
+.mtt{
+  background-color: black;
+  min-height: 30vh;
+}
+.rdm{
+  background-color: blue;
+  min-height: 30vh;
+
+}
+.mc{
+  background-color: green;
+  min-height: 30vh;
+
+}
+.mi{
+  background-color: yellow;
+  min-height: 30vh;
+
+}
+.ma{
+  background-color: purple;
+  min-height: 30vh;
+
+}

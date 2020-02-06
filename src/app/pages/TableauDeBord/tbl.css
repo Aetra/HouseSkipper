@@ -1,27 +1,58 @@
 .PtableauBord{
   min-height: 100vh;
 }
-.mtt{
-  background-color: black;
-  min-height: 30vh;
+hr {
+  background-color: #ECF8DD;
+  border: none;
+  width: 80%;
+  height: 1px;
 }
+ .row{
+  margin: 0 0 0 0 !important
+}
+.lightA{
+  width:30% ! important;
+}
+.mychart{
+  width:70% !important;
+}
+.gradient-border {
+  --borderWidth: 5px;
+  background: #1D1F20;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+.mtt{
+  background-color: white;
+}
+
 .rdm{
-  background-color: blue;
-  min-height: 30vh;
+  background-color: white;
 
 }
 .mc{
-  background-color: green;
-  min-height: 30vh;
+  background-color: white;
+  min-:40vw;
 
 }
 .mi{
-  background-color: yellow;
-  min-height: 30vh;
+  background-color: white;
 
 }
 .ma{
-  background-color: purple;
-  min-height: 30vh;
+  background-color: white;
 
 }

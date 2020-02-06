@@ -1,3 +1,48 @@
-footer{
-  background-color: black;
+.wn-footer {
+text-align: center;
+color: white;
+background-color: #303030;
+font-size: 15px;
+padding-top: 4%;
+font-family: 'Raleway', sans-serif;
+}
+hr {
+  background-color: #ECF8DD;
+  border: none;
+  width: 50%;
+  height: 1px;
+}
+.hrOne {
+  margin-top: 22px;
+  margin-bottom: 42px;
+}
+.menu-item {
+  color:white;
+}
+.home-logo {
+  width: 9vw;
+}
+.linkbl {
+  color: white;
+  padding-left: 45%;
+}
+.iconLnk {
+font-size: 1.7rem;
+}
+a .fa {
+color: white;
+}
+
+/* Medium Devices */
+@media (min-width:768px) and (max-width:991.98px) {
+  .home-logo {
+    width: 30vw;
+  }
+  .wn-footer {
+  font-size: 25px;
+  }
+  .iconLnk {
+  font-size: 2.7rem;
+  }
+
 }
